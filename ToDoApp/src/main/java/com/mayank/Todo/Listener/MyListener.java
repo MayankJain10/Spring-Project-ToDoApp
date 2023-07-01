@@ -1,13 +1,12 @@
 package com.mayank.Todo.Listener;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.mayank.Todo.Entities.Todo;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
-
-import com.mayank.Todo.Entities.Todo;
+import java.util.ArrayList;
+import java.util.List;
 
 // this class is used whenever the project is deployed then this listener will listen this/
 public class MyListener implements ServletContextListener{

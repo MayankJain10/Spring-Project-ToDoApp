@@ -1,20 +1,23 @@
 package com.mayank.Todo.controller;
 
-import java.util.Date;
-import java.util.List;
-
-import javax.servlet.ServletContext;
-
+import com.mayank.Todo.Entities.Todo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.mayank.Todo.Entities.Todo;
+import javax.servlet.ServletContext;
+import java.util.Date;
+import java.util.List;
 
+/**
+ * TO-DO Application
+ * This is a basic desktop application, through this
+ * you can make your daily TO-DO list.
+ * You can add the points in this and can see the added points.
+ */
 @Controller
 public class HomeController {
 	
